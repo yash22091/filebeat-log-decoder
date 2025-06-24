@@ -1,7 +1,0 @@
-<group name="filebeat,">
-  <rule id="100002" level="7">
-    <decoded_as>es_field_overflow</decoded_as>
-    <description>Filebeat Dropped Rule ID $(DropRuleID) of $(DropRuleDescription) Due to $(DropReason) in Indices</description>
-    <options>no_full_log</options>
-  </rule>
-</group>
