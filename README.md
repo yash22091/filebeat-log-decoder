@@ -53,7 +53,7 @@ filebeat-log-decoder/
    ```xml
    <localfile>
      <log_format>syslog</log_format>
-     <location>/var/log/filebeat/filebeat</location>
+     <location>/var/log/filebeat/filebeat*</location>
    </localfile>
    ```
 
