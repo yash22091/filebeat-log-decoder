@@ -1,6 +1,6 @@
-# Filebeat Log Decoder for OSSEC/Wazuh
+# Filebeat Log Decoder for Wazuh
 
-This repository provides **custom OSSEC/Wazuh decoders and rules** specifically crafted for parsing **Filebeat-generated logs**. These configurations are designed to help **monitor and detect logs that are received by the Wazuh Manager but not ingested into the indexer**, due to various issues such as:
+This repository provides **custom Wazuh decoders and rules** specifically crafted for parsing **Filebeat-generated logs**. These configurations are designed to help **monitor and detect logs that are received by the Wazuh Manager but not ingested into the indexer**, due to various issues such as:
 
 * Field mapping conflicts
 * Data type mismatches
@@ -87,5 +87,3 @@ After integrating the decoders and rules:
 
 * Ensure your index mapping and field limits are aligned with the nature of logs being ingested.
 * This tool complements but **does not replace proper index template and pipeline tuning** for Filebeat.
-
----
